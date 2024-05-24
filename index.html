@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--body-->
+        <header class="header">
+            <a href="#" class="logo">My Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">ABOUT</a>
+                <a href="#services">SERVICES</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello,It's Me</h3>
+                <h1>Yash Shivankar</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <div class="social-media">
+                    <a href="https://github.com/Yash-Shivankar"><i class='bx bxl-github'></i></a>
+                    <a href="yashshivankar9274@gmail.com"><i class='bx bxs-envelope'></i></a>
+                    <a href=""><i class='bx bxl-instagram' ></i></a>
+                    <a href="www.linkedin.com/in/yash-shivankar"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+                <a href="YASH_SHIVANKAR.pdf" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="images/1.jpg" alt="">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/2.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>Software Developer</h3>
+                <p>
+                    Welcome to My Portfolio, where design meets innovation. I'm Yash Shivankar, a multifaceted professional excelling in UI/UX design, web development, software engineering, and the realms of machine learning and AI. With a passion for crafting visually stunning interfaces and developing cutting-edge solutions, my mission is to seamlessly blend creativity and technology. From dynamic websites to intelligent algorithms, I bring versatility and a commitment to innovation. Let's collaborate to shape unique digital experiences that stand out in today's tech landscape. Thank you for considering me. Let's bring your ideas to life! </p>
+                 <a href="#"class="btn">Read More</a>   
+            </div>
+        </section>
+        <section class="services"id="services">
+            <h2 class="heading">Our<span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>I am a skilled web developer dedicated to creating responsive and dynamic websites. With expertise in front-end and back-end technologies, I bring ideas to life with precision and functionality.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+        
+                <div class="services-box">
+                    <i class='bx bx-crop' ></i>
+                    <h3>UI/UX Design</h3>
+                    <p>As a UI/UX designer, I merge aesthetics with functionality, crafting seamless and visually appealing digital experiences. My focus is on user-centric design to enhance engagement and usability.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            
+                <div class="services-box">
+                    <i class='bx bxl-instagram-alt' ></i>
+                    <h3>Software Developement</h3>
+                    <p>I excel in software development, creating robust applications with precision and efficiency. My expertise spans diverse technologies, ensuring the delivery of scalable and innovative solutions tailored to your specific needs.</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio"id="portfolio">
+            <h2 class="heading">Latest<span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/3.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Personal Portfolio</h4>
+                        <p>Crafted a dynamic personal portfolio showcasing skills, projects, and achievements. Meticulously designed to reflect my unique professional journey, fostering a compelling online presence for career opportunities.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/4.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Face Recognition System</h4>
+                        <p>Engineered secure face recognition with advanced algorithms, enhancing identification accuracy and enabling seamless user authentication for diverse applications.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/5.jpg"alt="">
+                    <div class="portfolio-layer">
+                        <h4>Machine learning projects</h4>
+                        <p>Applied machine learning, trained models, and delivered insightful results, enhancing decision-making across diverse domains with predictive accuracy and efficiency.</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact"id="contact">
+            <h2 class="heading">Contact<span>ME!</span></h2>
+
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name">
+                    <input type="email" name="Email Address" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="Mobile Number"placeholder="Mobile Number">
+                    <input type="text"name="Email Subject" placeholder="Email Subject">
+                </div>
+                <textarea name="Your Message" id="" cols="30" rows="10"placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message"class="btn">
+            </form>
+            <span id="msg"></span>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by Yash | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="script.js"></script>
+        <script>
+            const scriptURL = '#'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        
+    </body>
+</html>
